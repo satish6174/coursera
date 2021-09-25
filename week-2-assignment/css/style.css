@@ -19,6 +19,7 @@ p
  font-size: 120%;
  position:absolute;
  top:25px;
+
  }
 
 .p{
@@ -26,26 +27,31 @@ p
  margin-right: 10px;
  height:260px;
  position:relative;
+ 
  }
 #a
 {
   position: absolute;
   font-size: 25px;
   right:0px;
-  height:25px;
+  height:28px;
   background-color: red;
-  clear:left;
+  
   }
 #b
 {
+  position: absolute;
+  right:0px;
+  height:28px;
   font-size: 25px;
-  float:right;
   background-color:pink;
 }
 #c
 {
+  position: absolute;
+  right:0px;
+  height:28px;
   font-size: 25px;
-  float:right;
   background-color: yellow;
 }
 @media (min-width: 992px) {
